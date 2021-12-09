@@ -11,7 +11,7 @@ function read_word(){
     list($word,$cx,$definition)=$word_all;
 ?>
 <p>
-    <?=$word?>-<?=$cx?>。<?=$definition?>
+    单词:<?=$word?>词性:<?=$cx?>词义:<?=$definition?>
 </p>
 <?php
 }
