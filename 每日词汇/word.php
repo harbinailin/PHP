@@ -16,7 +16,7 @@ function read_word(){
 <?php
 }
 ?>
-<p>今天的每日单词是：</p>
+<p>今天的每日单词是:</p>
 <?php
 read_word();
 ?>
