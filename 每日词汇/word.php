@@ -8,10 +8,10 @@ function read_word(){
     $random_index=rand(0,count($lines)-1);
     $random_line=$lines[$random_index];
     $word_all=explode("\t",$random_line);
-    list($word,$cx,$definition)=$word_all;
+    // list($word,$cx,$definition)=$word_all;
 ?>
 <p>
-    单词:<?=$word?>词性:<?=$cx?>词义:<?=$definition?>
+    <?=$word_all?>
 </p>
 <?php
 }
