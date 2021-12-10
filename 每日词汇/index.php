@@ -1,6 +1,6 @@
 <?php
 include("index.html");
-$Hit_Counter_Filename="content.txt";
+$Hit_Counter_Filename="count.txt";
 
 function hit_count(){
     global $Hit_Counter_Filename;
