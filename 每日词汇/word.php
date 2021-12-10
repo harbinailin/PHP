@@ -8,10 +8,10 @@ function read_word(){
     $random_index=rand(0,count($lines)-1);
     $random_line=$lines[$random_index];
     $word_all=explode("\t",$random_line);
-    list($word,$cx,$definition)=$word_all;
+    list($word)=$word_all;
 ?>
 <p>
-    <?=$word?><?=$cx?><?=$definition?>
+    <?=$word?>
 </p>
 <?php
 }
